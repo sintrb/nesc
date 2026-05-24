@@ -1,0 +1,48 @@
+{
+  "ines": {
+    "mapper": 0,
+    "mirroring": "horizontal",
+    "battery": false,
+    "four_screen": false,
+    "prg_rom_size": 32768,
+    "chr_rom_size": 8192
+  },
+  "segments": [
+    {
+      "name": "ZEROPAGE",
+      "kind": "ram",
+      "start": "0x0000",
+      "size": "0x0100"
+    },
+    {
+      "name": "RAM",
+      "kind": "ram",
+      "start": "0x0300",
+      "size": "0x0500"
+    },
+    {
+      "name": "CODE",
+      "kind": "prg",
+      "start": "0x8000",
+      "size": "0x7ffa",
+      "file_offset": "0x0000",
+      "fill": "0xff"
+    },
+    {
+      "name": "VECTORS",
+      "kind": "prg",
+      "start": "0xfffa",
+      "size": "0x0006",
+      "file_offset": "0x7ffa",
+      "fill": "0xff"
+    },
+    {
+      "name": "CHR",
+      "kind": "chr",
+      "start": "0x0000",
+      "size": "0x2000",
+      "file_offset": "0x0000",
+      "fill": "0x00"
+    }
+  ]
+}
