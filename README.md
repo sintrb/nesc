@@ -108,6 +108,8 @@ python3 -m nesc build examples/tetris.c --config configs/nrom32.json --append-as
 - 轮询手柄输入、碰撞检测、锁定方块与消行
 - 通过 `--append-asm` 追加 CHR 图样汇编生成完整 `.nes`
 
+个例子编译结果可以在示例程序位于 [build](build)文件夹里看到。
+
 ## 测试
 
 ```bash
