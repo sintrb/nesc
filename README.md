@@ -48,7 +48,7 @@
 
 ## 配置格式
 
-示例见 [configs/nrom32.json](/Users/robin/DO/GitHub/nesc/configs/nrom32.json) 和 [configs/uxrom_fixed.json](/Users/robin/DO/GitHub/nesc/configs/uxrom_fixed.json)。
+示例见 [configs/nrom32.json](configs/nrom32.json) 和 [configs/uxrom_fixed.json](configs/uxrom_fixed.json)。
 
 核心思路：
 
@@ -86,7 +86,7 @@ python3 -m nesc build examples/tetris.c --config configs/nrom32.json --append-as
 
 ## 示例源码
 
-示例程序位于 [examples/counter.c](/Users/robin/DO/GitHub/nesc/examples/counter.c)、[examples/color_cycle.c](/Users/robin/DO/GitHub/nesc/examples/color_cycle.c) 和 [examples/tetris.c](/Users/robin/DO/GitHub/nesc/examples/tetris.c)。
+示例程序位于 [examples/counter.c](examples/counter.c)、[examples/color_cycle.c](examples/color_cycle.c) 和 [examples/tetris.c](examples/tetris.c)。
 
 `counter.c` 演示了：
 
